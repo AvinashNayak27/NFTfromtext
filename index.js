@@ -67,7 +67,7 @@ async function main() {
   const nftCollection = sdk.getNFTCollection('0xcF6E685D275dC1aAc0981c58979e8F3ec7608896');
 
   const nft = await (await nftCollection).mintTo(address, {
-    name: "AI generayed "+`${playerName}`,
+    name: "AI generated "+`${playerName}`,
     image: readFileSync(location),
     description:`${playerName}`,
   });
