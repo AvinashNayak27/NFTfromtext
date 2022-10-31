@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@superfluid-finance/sdk-core": "^0.5.7",
     "@thirdweb-dev/sdk": "^3.4.2",
     "chalk-animation": "^2.0.3",
     "dotenv": "^16.0.3",
